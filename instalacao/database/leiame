@@ -1,0 +1,4 @@
+Será preciso criar o banco de dados (db_sgdoc4).
+Será preciso criar um usuário para aplicação (usr_sgdoc4)
+Será necessário conceder as permissões, caso outro usuário tenha sido criado (!= usr_sgdoc4), pois no dump já existem as permissões para usr_sgdoc4.
+Será necessário setar o search path para o usuário da aplicação (ALTER ROLE [USER_NAME] IN DATABASE [DB_NAME] SET search_path = sgdoc;)
